@@ -22,9 +22,7 @@ function setup() {
   bodypose.detectStart(capture, gotPoses);
   connections = bodypose.getSkeleton();
 
-  specs = loadImage('images/spects.png');
-
-  smoke = loadImage('images/cigar.png');
+  specs = loadImage('spects.png');
 }
 
 function modelLoaded() {
