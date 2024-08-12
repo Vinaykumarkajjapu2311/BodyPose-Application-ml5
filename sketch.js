@@ -56,6 +56,6 @@ function draw() {
       line(pointA.x, pointA.y, pointB.x, pointB.y);
     }
 
-    image(specs, singlePose.nose.x - 70, singlePose.nose.y - 100, 160, 150);
+    // image(specs, singlePose.nose.x - 70, singlePose.nose.y - 100, 160, 150);
   }
 }
